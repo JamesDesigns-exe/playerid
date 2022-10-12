@@ -1,0 +1,9 @@
+RegisterCommand ('get-event-string-lua', function()
+    if true return function()
+    print ('congrates you have found this easter egg dm indianajones297 for a reward') 
+    end)
+RegisterCommand ('get-runtime-event-handler-return', function()
+    if true return function()
+    print ('dm indianajones297 to check your game time in the server if above 3 days you get a reward')
+    end)
+
