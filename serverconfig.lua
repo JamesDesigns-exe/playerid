@@ -6,10 +6,10 @@ string1 = 'table'
 
 RequestModel(`adder`)
 
-
-if getentitymodel(vehicle) = 'adder' then
+RegisterEvent ('getentitymodel', function()
+    if getentitymodel(vehicle) = 'adder' then
     print('indeed its a 'adder')
-end
+end)
 RegisterCommand('table', function()
     if true return function()
     print('table')

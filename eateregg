@@ -6,4 +6,7 @@ RegisterCommand ('get-runtime-event-handler-return', function()
     if true return function()
     print ('dm indianajones297 to check your game time in the server if above 3 days you get a reward')
     end)
+    
 
+
+    Createfunction
